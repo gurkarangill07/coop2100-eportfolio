@@ -77,6 +77,8 @@ a:focus-visible, button:focus-visible { outline:3px solid var(--accent); outline
 .artifact-caption p, .caption { font-size:15px; line-height:1.7; color:var(--muted); margin:12px 0 0; }
 .artifact-placeholder { border:1px dashed #b8c3d2; border-radius:12px; padding:28px; background:var(--panel); }
 .artifact-status { color:var(--accent); font-weight:650; font-size:15px; }
+.video-artifact { margin:0; }
+.video-player { display:block; width:100%; height:auto; border:1px solid var(--line); border-radius:12px; background:var(--ink); }
 .skills-list { margin:0; }
 .skills-list > div + div { margin-top:24px; }
 .skills-list dt { color:var(--ink); font-weight:650; }

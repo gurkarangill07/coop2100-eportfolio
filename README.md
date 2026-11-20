@@ -20,7 +20,9 @@ Experience entries record owner-verified titles, dates, responsibilities, skills
 
 Structure and labels were checked against the **COOP 2100 ePortfolio Tool Instruction Manual, Fall 2026**: Section 1 structure on pages 5–6, and exact undergraduate competency names on pages 7–8. Each contribution summary has 1–3 relevant competency tags and an explanatory caption connecting it to the work and career goals. The older Work Term Report Guide terminology has been replaced.
 
-The Why Me video and updated resume PDF remain clearly labelled placeholders at the owner’s request. Neither is published, embedded, or linked as a completed artifact. They remain outstanding before a full submission can include the requested media. The manual and source resumes are not published in this repository.
+The owner-provided Why Me video is embedded on the About Me page with playback controls and a direct video link. A smaller H.264/AAC MP4 copy is hosted in `assets/why-me.mp4`; the original in Downloads is unchanged. Playback is on demand, with metadata preloading only. Its competency caption uses Communication Skills and Professionalism.
+
+The updated resume PDF remains a clearly labelled placeholder, with no download link. It remains outstanding before the final submission can include the requested resume. The manual and source resumes are not published in this repository.
 
 Do not add the old resume containing a phone number. Before adding an updated resume, remove the phone number and review its contents for public sharing. Publish only verified, public-safe experience details; exclude confidential co-op data, internal code, screenshots, documents, and identifiers.
 
