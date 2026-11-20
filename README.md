@@ -22,7 +22,7 @@ Structure and labels were checked against the **COOP 2100 ePortfolio Tool Instru
 
 The owner-provided Why Me video is embedded on the About Me page with playback controls and a direct video link. A smaller H.264/AAC MP4 copy is hosted in `assets/why-me.mp4`; the original in Downloads is unchanged. Playback is on demand, with metadata preloading only. Its competency caption uses Communication Skills and Professionalism.
 
-The updated resume PDF remains a clearly labelled placeholder, with no download link. It remains outstanding before the final submission can include the requested resume. The manual and source resumes are not published in this repository.
+The finalized, owner-approved resume is available from the Career page’s **View / Download Resume (PDF)** link at `assets/Gurkaran_Singh_Resume.pdf`. It was copied without changing its contents. Its competency tags remain Communication Skills and Professionalism. The manual and older resumes are not published in this repository.
 
 Do not add the old resume containing a phone number. Before adding an updated resume, remove the phone number and review its contents for public sharing. Publish only verified, public-safe experience details; exclude confidential co-op data, internal code, screenshots, documents, and identifiers.
 
