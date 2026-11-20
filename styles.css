@@ -66,6 +66,9 @@ footer p { margin:0; }
 .experience-list li + li { margin-top:8px; }
 .contact-links { display:flex; flex-wrap:wrap; gap:12px 28px; margin-top:24px; }
 .contact-links a, .source-note a { color:var(--accent); text-underline-offset:4px; }
+.page-links { display:flex; flex-wrap:wrap; gap:16px 28px; margin:0 0 32px; font-size:16px; }
+.page-links a { color:var(--accent); text-underline-offset:4px; }
+.content-section[id], .experience-entry[id] { scroll-margin-top:24px; }
 a, footer p { overflow-wrap:anywhere; }
 a:focus-visible, button:focus-visible { outline:3px solid var(--accent); outline-offset:5px; }
 .competency-tags { list-style:none; padding:0; display:flex; flex-wrap:wrap; gap:8px; margin:0 0 12px; }
