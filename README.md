@@ -1,6 +1,6 @@
 # Gurkaran Singh — COOP 2100 ePortfolio
 
-Static GitHub Pages portfolio, updated for COOP 2100 Section 1 on November 20, 2026.
+Static GitHub Pages portfolio for COOP 2100, updated for Section 2 Peer Review on November 28, 2026.
 
 ## Pages
 - Home
@@ -11,6 +11,8 @@ Static GitHub Pages portfolio, updated for COOP 2100 Section 1 on November 20, 2
 - Course Projects
 
 ## Content and evidence
+
+Section 2 includes five SMART goals with qualitative progress, a public-safe Northbridge work summary, project results and public artifacts, co-op reflections, and an engineering vision. The published resume supports the GPA and approximate notifier user count, while public project credits and merged pull requests substantiate individual team contributions.
 
 The About Me page includes a four-sentence biography, university program and expected graduation date, software/data engineering and AI career goals, professional contact links, and community involvement.
 

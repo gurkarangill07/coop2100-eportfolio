@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Gurkaran Singh — COOP 2100 ePortfolio">
+  <meta name="description" content="Gurkaran Singh’s selected course and side projects, individual contributions, results, and public artifacts.">
   <title>Course Projects | Gurkaran Singh</title>
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="stylesheet" href="styles.css">
@@ -23,16 +23,107 @@
 <a href="projects.html" class="active" aria-current="page">Course Projects</a></nav>
   </header>
   <main>
-      <section class="page-intro">
+      <section class="page-intro content-intro">
         <p class="eyebrow">05 · Course Projects</p>
         <h1>Course Projects</h1>
-        <p>Course projects and supporting artifacts will be added here as the semester progresses.</p>
+        <p>Selected course and side projects, with links to the work and the contributions I made.</p>
       </section>
+      <nav class="page-links" aria-label="Projects">
+        <a href="#fulltime">Fulltime</a>
+        <a href="#yorku-notifier">YorkU Notifier</a>
+        <a href="#posture-corrector">AI Posture Corrector</a>
+        <a href="#dental-booking">Dental Appointment Booking</a>
+      </nav>
+      <section id="fulltime" class="content-section" aria-labelledby="fulltime-title">
+        <div class="section-heading">
+          <p class="eyebrow">July 2026 · Hackathon prototype</p>
+          <h2 id="fulltime-title">Fulltime</h2>
+        </div>
+        <div class="section-body">
+          <p>Fulltime helps football fans find compatible people and choose where to watch a match together.</p>
+          <ul class="experience-list">
+            <li><strong>Technologies</strong> TypeScript, Vite, HTML, and CSS.</li>
+            <li><strong>My contribution</strong> Built the questionnaire and weighted compatibility scoring. Added fixture data and ranked Toronto venues by the match and viewer preferences.</li>
+            <li><strong>Result</strong> The prototype recommends fan matches from quiz answers and suggests venues for upcoming fixtures. I checked the venue ranking across 240 sample fixture/profile combinations.</li>
+          </ul>
+          <p class="contact-links"><a href="https://gurkarangill07.github.io/fulltime/">Try the Fulltime demo</a><a href="https://github.com/gurkarangill07/fulltime/pull/1">Matching pull request</a><a href="https://github.com/gurkarangill07/fulltime/pull/2">Venue recommendations pull request</a></p>
+          <div class="artifact-caption">
+            <ul class="competency-tags" aria-label="Lassonde competency tags">
+              <li>Problem Analysis</li><li>Use of Engineering Tools</li><li>Individual and Teamwork</li>
+            </ul>
+            <p>I turned fan preferences into scoring rules, used TypeScript to implement and check the logic, and integrated my changes into the team prototype through merged pull requests.</p>
+          </div>
+        </div>
+      </section>
+      <section id="yorku-notifier" class="content-section" aria-labelledby="yorku-notifier-title">
+        <div class="section-heading">
+          <p class="eyebrow">March 2026 · Student tool</p>
+          <h2 id="yorku-notifier-title">YorkU Course Availability Notifier</h2>
+        </div>
+        <div class="section-body">
+          <p>The notifier helps York University students track course sections and get an email when a seat opens.</p>
+          <ul class="experience-list">
+            <li><strong>Technologies</strong> JavaScript, Node.js, Express, Playwright, and PostgreSQL.</li>
+            <li><strong>My contribution</strong> Built the seat monitor, connected the API to the web interface, designed the database and sign-in flow, and built the queue for notification retries and duplicate prevention. A teammate implemented email delivery.</li>
+            <li><strong>Result</strong> The tool reached <strong>approximately 500 student users</strong> and gave them a way to monitor availability without repeatedly checking the schedule.</li>
+          </ul>
+          <p class="contact-links"><a href="https://www.yorkucourseavailabilitynotifier.online/">Open the YorkU Notifier</a><a href="https://github.com/gurkarangill07/YorkU-Course-Availability-Notifier#contributors">Source code and contributor credits</a></p>
+          <div class="artifact-caption">
+            <ul class="competency-tags" aria-label="Lassonde competency tags">
+              <li>Problem Analysis</li><li>Use of Engineering Tools</li><li>Individual and Teamwork</li>
+            </ul>
+            <p>I identified where manual checks could be automated, used Playwright and PostgreSQL to track seat availability, and coordinated the notification workflow with a teammate.</p>
+          </div>
+        </div>
+      </section>
+      <section id="posture-corrector" class="content-section" aria-labelledby="posture-corrector-title">
+        <div class="section-heading">
+          <p class="eyebrow">February 2026 · Team prototype</p>
+          <h2 id="posture-corrector-title">AI Posture Corrector and Analyzer</h2>
+        </div>
+        <div class="section-body">
+          <p>This prototype uses a webcam to monitor posture and presents feedback in a web dashboard.</p>
+          <ul class="experience-list">
+            <li><strong>Technologies</strong> Next.js, React, TypeScript, Python, OpenCV, MediaPipe, and Ollama.</li>
+            <li><strong>My contribution</strong> Proposed the concept, implemented frontend features for score display, timing, and reminders, and connected the AI coach interface to backend APIs.</li>
+            <li><strong>Result</strong> The team integrated webcam monitoring, a posture dashboard, and a local AI coach into one prototype.</li>
+          </ul>
+          <p class="contact-links"><a href="https://github.com/OmidRahmanian/AI-Posture-Corrector-and-Analyzer#gurkarangill07">Project source and contribution credits</a></p>
+          <div class="artifact-caption">
+            <ul class="competency-tags" aria-label="Lassonde competency tags">
+              <li>Use of Engineering Tools</li><li>Individual and Teamwork</li>
+            </ul>
+            <p>I used React and TypeScript to present the team’s detector and coaching features through one interface.</p>
+          </div>
+        </div>
+      </section>
+      <section id="dental-booking" class="content-section" aria-labelledby="dental-booking-title">
+        <div class="section-heading">
+          <p class="eyebrow">April 2025 · EECS 1012 team project</p>
+          <h2 id="dental-booking-title">Dental Appointment Booking System</h2>
+        </div>
+        <div class="section-body">
+          <p>Our course project let users browse dental services and book appointments through a web interface.</p>
+          <ul class="experience-list">
+            <li><strong>Technologies</strong> HTML, CSS, and JavaScript in a Node.js application.</li>
+            <li><strong>My contribution</strong> Built interactive service details and contributed dark mode and layout changes.</li>
+            <li><strong>Result</strong> Both changes were merged into the team application, allowing users to expand service information and switch the display theme.</li>
+          </ul>
+          <p class="contact-links"><a href="https://github.com/davecao2k5/LE-EECS1012-FINAL-PROJECT/pull/19">Service details pull request</a><a href="https://github.com/davecao2k5/LE-EECS1012-FINAL-PROJECT/pull/33">Dark mode and layout pull request</a></p>
+          <div class="artifact-caption">
+            <ul class="competency-tags" aria-label="Lassonde competency tags">
+              <li>Use of Engineering Tools</li><li>Individual and Teamwork</li>
+            </ul>
+            <p>I used JavaScript and CSS to implement UI changes and submitted them through the team’s shared GitHub workflow.</p>
+          </div>
+        </div>
+      </section>
+      <p class="source-note">Competency names follow the COOP 2100 ePortfolio Tool Instruction Manual, Fall 2026, pages 7–8.</p>
     </main>
   <footer>
     <p>Gurkaran Singh <span>·</span> COOP 2100 ePortfolio</p>
-    <p><a href="mailto:GurkaranSingh@nbfc.com">GurkaranSingh@nbfc.com</a></p>
-    <p class="muted">Last updated <time datetime="2026-11-20">November 20, 2026</time></p>
+    <p><a href="mailto:gurkarangill1234@gmail.com">gurkarangill1234@gmail.com</a></p>
+    <p class="muted">Last updated <time datetime="2026-11-28">November 28, 2026</time></p>
   </footer>
 </body>
 </html>
